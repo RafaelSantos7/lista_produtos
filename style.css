@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color:  #303030;
+    padding: 5px;
+    color: antiquewhite;
+    display: grid;
+    text-align: center;
+}
+
+main {
+    padding: 30px 50px;
+}
+
+.card {
+    background-color: rgb(204, 229, 252);
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.inputpd {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #303030;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.conteudo {
+    margin-top: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: #ccc;
+}
+
+table th {
+    background-color: #303030;
+    padding: 1px;
+    color: white;
+}
+
+table td {
+    padding: 5px;
+}
+
+table td img {
+    width: 25px;
+}
+
+/* Responsivo */
+@media (max-width: 375px) {
+    h1 {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    table th {
+        font-size: 14px;
+    }
+
+    button {
+        width: 90px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    table td img {
+        width: 20px;
+    }    
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+    main {
+        padding: 20px 30px;
+    }
+
+    button {
+        width: 90px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    table th {
+        font-size: 14px;
+    }
+
+    table td img {
+        width: 20px;
+    }    
+}
